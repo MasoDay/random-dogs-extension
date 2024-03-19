@@ -1,9 +1,10 @@
 {
-    "name": "Random Dog Generator",
+    "name": "Random Pupper Pictures",
     "version": "1.0.0",
-    "description": "This extension displays a random dog whenever opened for a little burst of pupper-fueled dopemine while browsing or studying!",
+    "description": "See a random dog for a little burst of pupper-fueled dopemine!",
     "manifest_version": 3,
     "author": "Ben DeMaso",
+    "icons": "favicon.ico",
     "action": {
         "default_popup": "index.html",
         "default_icon": {
