@@ -18,11 +18,13 @@
 .body-text {
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
+    text-align: center;
+    font-size: larger;
 }
 
 .button {
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     border-radius: 5px;
     background-color: rgb(107, 86, 226);
     color: antiquewhite;
@@ -36,4 +38,6 @@
     border-radius: 8px;
     border-style: solid;
     border-width: 5px;
+    display: block;
+    margin: 0 auto;
 }
