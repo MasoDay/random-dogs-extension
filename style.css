@@ -1,0 +1,39 @@
+.background {
+    background: linear-gradient(to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.5));
+    background-repeat: repeat;
+    background-size: 200px;
+    background-position: center;
+    background-color: aqua;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.body-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: rgb(107, 86, 226);
+    color: antiquewhite;
+    display: block;
+    margin: 0 auto;
+}
+
+.pupper-pic {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 5px;
+}
