@@ -1,6 +1,5 @@
 const image = document.getElementById("image")
 const url = "https://dog.ceo/api/breeds/image/random"
-const beagleUrl = "https://unsplash.com/photos/brown-white-and-black-short-coated-dog-on-green-grass-field-during-daytime-VYrMzY-g5HQ"
 
 // The outrageously simple function that took me 3 hours to correctly write...
 // Even though it just repeats nearly all of the logic below inside of an async block.
