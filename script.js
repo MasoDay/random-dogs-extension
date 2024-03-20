@@ -2,6 +2,17 @@ const image = document.getElementById("image")
 const url = "https://dog.ceo/api/breeds/image/random"
 const beagleUrl = "https://unsplash.com/photos/brown-white-and-black-short-coated-dog-on-green-grass-field-during-daytime-VYrMzY-g5HQ"
 
+async function fetchData() {
+    fetch(url)
+    .then(res => res.json())
+    .then(result => {
+        console.log(result)
+        image.src = result.message
+    })
+    .catch(error => console.log(error))
+}
+fetchData();
+
 const btn = document.getElementById("btnClick");
 btn.addEventListener("click", function () {
     fetch(url)
@@ -13,8 +24,17 @@ btn.addEventListener("click", function () {
     .catch(error => console.log(error))
 })
 
+// {
+//     const options = {
+//         method: 'GET'
+//     };
 
+//     const response = await fetch(url, options);
+//     const result = await response.json()
 
+//     document.getElementById("neighborhoods").innerHTML =
+//     result.data.map(item => `<li>${item.name}</li>`).join("");
+// }
 
 // const img = new Image();
 // img.addEventListener("load", function () {
