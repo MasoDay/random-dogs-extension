@@ -2,7 +2,9 @@ const image = document.getElementById("image")
 const url = "https://dog.ceo/api/breeds/image/random"
 const beagleUrl = "https://unsplash.com/photos/brown-white-and-black-short-coated-dog-on-green-grass-field-during-daytime-VYrMzY-g5HQ"
 
-async function fetchData() {
+// The outrageously simple function that took me 3 hours to correctly write...
+// Even though it just repeats nearly all of the logic below inside of an async block.
+async function fetchDoggo() {
     fetch(url)
     .then(res => res.json())
     .then(result => {
@@ -11,7 +13,7 @@ async function fetchData() {
     })
     .catch(error => console.log(error))
 }
-fetchData();
+fetchDoggo();
 
 const btn = document.getElementById("btnClick");
 btn.addEventListener("click", function () {
